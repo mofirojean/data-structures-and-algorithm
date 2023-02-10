@@ -9,4 +9,4 @@ This a GitHub repository that hold the implementation of the various data struct
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.#
+to discuss what you would like to change.
