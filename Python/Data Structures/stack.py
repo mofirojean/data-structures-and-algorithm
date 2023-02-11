@@ -94,16 +94,3 @@ class _StackNode:
     def __init__(self, item, link):
         self.item = item
         self.next = link
-
-
-# Drive Method
-stack = LinkedListStack()
-print(stack.is_empty())
-stack.push("hello cameroon")
-stack.push("hello nigeria")
-stack.push("hello congo")
-stack.push("hello chad")
-print(stack.peek())
-print(stack.pop())
-print(stack.peek())
-print(stack)
