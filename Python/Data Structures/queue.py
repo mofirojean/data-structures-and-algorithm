@@ -59,6 +59,8 @@ class PriorityQueue:
             # Remove the entry with the highest priority and return them
             entry = self._queueList.pop(highest)
             return entry.item
+        else:
+            return "Cannot dequeue from an empty queue"
 
 
 class _PriorityQueue:
